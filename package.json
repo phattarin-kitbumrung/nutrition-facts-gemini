@@ -1,0 +1,29 @@
+{
+  "name": "nutrition-facts-gemini",
+  "version": "1.0.0",
+  "description": "gemini model demo in typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gemini",
+    "llm",
+    "canvas",
+    "chart.js"
+  ],
+  "author": "minizymint",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.1.1",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.4.0",
+    "express": "^4.17.2"
+  }
+}
